@@ -171,8 +171,11 @@ class MainViewController: NSViewController {
         barChartView.highlightValue(x: firstDataEntry.x, y: firstDataEntry.y, dataSetIndex: 0)
 
         infoDataSource[3] = "\(videoAnalyzer.duration)"
-        infoDataSource[5] = "\(videoAnalyzer.maxBitrate) kbps"
-        infoDataSource[7] = "\(videoAnalyzer.minBitrate) kbps"
+//        infoDataSource[5] = "\(videoAnalyzer.minBitrate) kbps (\(videoAnalyzer.minBitrate / 1024) MBit/s)"
+//        infoDataSource[7] = "\(videoAnalyzer.maxBitrate) kbps (\(videoAnalyzer.maxBitrate / 1024) MBit/s)"
+//        infoDataSource[9] = "\(videoAnalyzer.avgBitrate) kbps (\(videoAnalyzer.avgBitrate / 1024) MBit/s)"
+        infoDataSource[5] = "\(videoAnalyzer.minBitrate) kbps"
+        infoDataSource[7] = "\(videoAnalyzer.maxBitrate) kbps"
         infoDataSource[9] = "\(videoAnalyzer.avgBitrate) kbps"
         infoDataSource[11] = "\(videoAnalyzer.width) * \(videoAnalyzer.height)"
         infoDataSource[13] = "\(videoAnalyzer.count)"
@@ -200,6 +203,7 @@ extension MainViewController: ChartViewDelegate {
         let index = Int(highlight.x)
 
         cursorDataSource[3] = "\(CMTime(value: videoAnalyzer.samples[index].timeStamp, timescale: videoAnalyzer.timeScale))"
+//        cursorDataSource[5] = "\(Int(highlight.y)) kbps (\(Int(highlight.y / 1024)) Mbit/s)"
         cursorDataSource[5] = "\(Int(highlight.y)) kbps"
         cursorDataSource[7] = "\(videoAnalyzer.samples[index].type)"
 
