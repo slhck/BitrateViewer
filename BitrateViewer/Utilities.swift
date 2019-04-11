@@ -75,7 +75,7 @@ func analyze(for file: URL) {
 }
 
 let supportedFileTypes = [
-    "flv", "mp4",
+    "flv", "mp4", "mkv", "mov", "avi"
 ]
 
 let kInfo = "Info"
