@@ -36,7 +36,7 @@ func analyze(for file: URL) {
     guard fileManager.fileExists(atPath: "/usr/local/bin/ffprobe") else {
         let alert = NSAlert()
         alert.alertStyle = .warning
-        alert.messageText = "Not found ffprobe in /usr/local/bin !"
+        alert.messageText = "Could not find ffprobe in /usr/local/bin – install ffmpeg with Homebrew!"
 
         alert.runModal()
 
