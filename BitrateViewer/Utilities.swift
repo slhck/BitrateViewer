@@ -79,7 +79,7 @@ let supportedFileTypes = [
 ]
 
 let kInfo = "Info"
-let kCursor = "Curosr"
+let kCursor = "Cursor"
 let kLabel = "Label"
 let kSecond = "Second"
 let kGOP = "GOP"
