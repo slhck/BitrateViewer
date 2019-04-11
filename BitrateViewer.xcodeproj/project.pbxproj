@@ -18,7 +18,6 @@
 		312B9FA61FB5821900B3A303 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B9FA51FB5821900B3A303 /* Stream.swift */; };
 		313F6D8420304CC3006B2DAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122C1021FAC9DD200C111F6 /* MainViewController.swift */; };
 		317D8F21203068C3004EE416 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D8F20203068C3004EE416 /* DragView.swift */; };
-		31A19A612073D63F00CF1F3B /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A19A5D2073D63F00CF1F3B /* Charts.framework */; };
 		31A19A622073D63F00CF1F3B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A19A5E2073D63F00CF1F3B /* RxCocoa.framework */; };
 		31A19A632073D63F00CF1F3B /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A19A5F2073D63F00CF1F3B /* SnapKit.framework */; };
 		31A19A642073D63F00CF1F3B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A19A602073D63F00CF1F3B /* RxSwift.framework */; };
@@ -27,6 +26,7 @@
 		31B2453620418E9D001D8ABE /* CMTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2453220418E9D001D8ABE /* CMTime.swift */; };
 		31B2453720418E9D001D8ABE /* NSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2453320418E9D001D8ABE /* NSTextField.swift */; };
 		31B2456120419566001D8ABE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2456020419566001D8ABE /* Array.swift */; };
+		362AC71A225F257C0017BBB6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362AC719225F257C0017BBB6 /* Charts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,6 @@
 		312B9F981FADB9F200B3A303 /* VideoAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAnalyzer.swift; sourceTree = "<group>"; };
 		312B9FA51FB5821900B3A303 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 		317D8F20203068C3004EE416 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
-		31A19A5D2073D63F00CF1F3B /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = ../../Carthage/Carthage/Build/Mac/Charts.framework; sourceTree = "<group>"; };
 		31A19A5E2073D63F00CF1F3B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../../Carthage/Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		31A19A5F2073D63F00CF1F3B /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../../Carthage/Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
 		31A19A602073D63F00CF1F3B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		31B2453220418E9D001D8ABE /* CMTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMTime.swift; sourceTree = "<group>"; };
 		31B2453320418E9D001D8ABE /* NSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTextField.swift; sourceTree = "<group>"; };
 		31B2456020419566001D8ABE /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		362AC719225F257C0017BBB6 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/Mac/Charts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A19A612073D63F00CF1F3B /* Charts.framework in Frameworks */,
+				362AC71A225F257C0017BBB6 /* Charts.framework in Frameworks */,
 				31A19A622073D63F00CF1F3B /* RxCocoa.framework in Frameworks */,
 				31A19A642073D63F00CF1F3B /* RxSwift.framework in Frameworks */,
 				31A19A632073D63F00CF1F3B /* SnapKit.framework in Frameworks */,
@@ -177,7 +177,7 @@
 		31649646202454780025ECF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31A19A5D2073D63F00CF1F3B /* Charts.framework */,
+				362AC719225F257C0017BBB6 /* Charts.framework */,
 				31A19A5E2073D63F00CF1F3B /* RxCocoa.framework */,
 				31A19A602073D63F00CF1F3B /* RxSwift.framework */,
 				31A19A5F2073D63F00CF1F3B /* SnapKit.framework */,
@@ -281,7 +281,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = nuomi1;
+				ORGANIZATIONNAME = slhck;
 				TargetAttributes = {
 					3122C0FC1FAC9DD200C111F6 = {
 						CreatedOnToolsVersion = 9.1;
@@ -483,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -537,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -550,14 +550,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = BitrateViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.nuomi1.BitrateViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.slhck.BitrateViewer;
 				PRODUCT_NAME = BitrateViewer;
 				SWIFT_VERSION = 4.0;
 			};
@@ -569,14 +569,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = BitrateViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.nuomi1.BitrateViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.slhck.BitrateViewer;
 				PRODUCT_NAME = BitrateViewer;
 				SWIFT_VERSION = 4.0;
 			};
@@ -589,7 +589,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				INFOPLIST_FILE = BitrateViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuomi1.BitrateViewerTests;
@@ -606,7 +606,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				INFOPLIST_FILE = BitrateViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuomi1.BitrateViewerTests;
@@ -622,7 +622,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				INFOPLIST_FILE = BitrateViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuomi1.BitrateViewerUITests;
@@ -638,7 +638,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 975KA7D567;
+				DEVELOPMENT_TEAM = FZYU7KPRU3;
 				INFOPLIST_FILE = BitrateViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuomi1.BitrateViewerUITests;
