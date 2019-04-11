@@ -23,7 +23,7 @@ class MainViewController: NSViewController {
         "Frames:", "Frames Info",
     ]
     private var cursorDataSource: [Any?] = [
-        "Curosr", nil,
+        "Cursor", nil,
         "Time:", "Time Info",
         "Bitrate:", "Bitrate Info",
         "Picture Type:", "Picture Type Info",
